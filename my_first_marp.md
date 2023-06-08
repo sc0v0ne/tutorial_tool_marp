@@ -1,5 +1,6 @@
 ---
 marp: true
+theme: gaia
 ---
 
 # Tutorial
@@ -11,6 +12,8 @@ Pariatur occaecat duis commodo culpa dolor cillum. Laboris ut qui nisi cupidatat
 
 ---
 
+<!-- _class: invert -->
+
 # Create first slide
 
 Use this:
@@ -18,8 +21,10 @@ Use this:
 ```text
 ---
 marp: true
+
 ---
 ```
+
 ---
 
 
@@ -35,3 +40,43 @@ Use this:
 Fugiat pariatur amet fugiat id deserunt quis proident culpa duis qui.
 
 ---
+
+# Images size
+
+![height:500 width:700](./images/image_1.png)
+
+---
+<!-- _class: invert -->
+# Images position
+
+![bg](./images/image_1.png)
+
+- Fugiat pariatur amet fugiat id</br> deserunt quis proident</br> culpa duis qui.
+
+- Fugiat pariatur amet fugiat id</br> deserunt quis proident</br> culpa duis qui.
+
+---
+
+
+# Images position
+
+![bg height: 300 left:50%](./images/image_1.png)
+
+- Fugiat pariatur amet fugiat id deserunt quis proident culpa duis qui.
+
+- Fugiat pariatur amet fugiat id  deserunt quis proident culpa duis qui.
+
+---
+
+# Python
+
+- Fugiat pariatur amet fugiat id  deserunt quis proident culpa duis qui.
+
+```python
+
+numbers = [i*10 for i in range(1, 6)]
+
+print(numbers)
+
+
+```
