@@ -1,4 +1,4 @@
-# tutorial_tool_marp_medium
+# tutorial_tool_marp
 
 This repository was created for the development of the article on the Medium platform
 
